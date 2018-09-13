@@ -11,11 +11,11 @@ $('.results').hide();
     // CorrectAnswersScore
     // WrongAnswersScore
 
-var number = 300; //number of seconds
+var number = 30; //number of seconds
 var intervalId;
-correctCount = 0;
-wrongCount = 0;
-unanswered = 0;
+var correctCount = 0;
+var wrongCount = 0;
+var unanswered = 0;
 
 //ALL FUNCTIONS
 
@@ -60,10 +60,10 @@ function hide(){
 function displaySummary(){
     $('.results').show();
     $('#summary').text("All Done!"); 
-    $('#correctScore').text(correctCount); 
-    $('#wrongScore').text(wrongCount); 
-    $('#unanswered').text(wrongCount); 
-    console.log("summary display" + correctCount + wrongCount)
+    $('#correctScore').text("Correct Answers:" + " " + correctCount); 
+    $('#wrongScore').text("Wrong Answers:" + " " + wrongCount); 
+    $('#unanswered').text("Unanswered:" + " " + unanswered); 
+    console.log("summary display" + correctCount + wrongCount);
    }
 
 // CLICK EVENTS
