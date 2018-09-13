@@ -1,0 +1,17 @@
+/* font-family: 'Jockey One', sans-serif; */
+
+
+body {
+    background-image: url("../images/background.jpg");
+    color: #212529;
+    text-align: left;
+    }
+
+.lead2 {
+    color: red;
+}
+
+.quest {
+    font-size: 26px;
+    font-weight: bold;
+}

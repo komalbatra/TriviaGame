@@ -1,0 +1,77 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BootStrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- My CSS file -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- Link to Typography -->
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One&effect=anaglyph|3d-float" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="favicon.ico" href="assets/images/icon.png"/>
+</head>
+<body>
+    <body class="text-center">
+
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+                <main role="main" class="inner cover">
+                        <h1 class="cover-heading">Totally Trivial Trivia!</h1>
+                        <!-- <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p> -->
+                        <p class="lead btn btn-lg btn-secondary" id="game-start">Start
+                        </p>
+                        <div class="col-lg-4 col-lg-offset-4 text-center">
+                            <p id="countdown">Time Remaining:<span id="timer"></span></p>
+                        </div>
+                </main>
+
+                <div class="trivia-ques text-center">
+                    <p class="quest">1. Which SuperHero is the strongest?</p>
+                    <form class="question">
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="optradio" value="correct">  Superman
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Aquaman  
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Spiderman  
+                        </label>
+                    </form>
+
+                    <p class="quest">2. Which SuperHero wears an iron suit?</p>
+                    <form class="question">
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Iron Man  
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Aquaman  
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Batman  
+                        </label>
+                    </form>
+                
+                    <div>
+                        <p class="lead btn btn-lg btn-secondary" id="game-done">Done
+                        </p>
+                    </div>
+
+                    <div class="results">
+                        <p class="lead2" id="summary"> 
+                        </p>
+                        <p class="lead2" id="correctScore"> Correct Answers: </p>
+                        <p class="lead2" id="wrongScore"> Incorrect Answers: </p>
+                        <p class="lead2" id="unanswered"> Unanswered: </p>
+                    </div>
+   
+
+    </div>  <!--Div class container end -->
+    <!-- JQuery & Javascript file Links -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
