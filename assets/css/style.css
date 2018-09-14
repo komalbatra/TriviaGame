@@ -1,17 +1,43 @@
-/* font-family: 'Jockey One', sans-serif; */
+
 
 
 body {
-    background-image: url("../images/background.jpg");
-    color: #212529;
+    background-image: url("../images/561149.jpg");
+    color: white;
     text-align: left;
+    font-family: 'Jockey One', sans-serif;
+    
     }
 
+.cover-heading{
+    margin-top: 60px;
+}
+
+#game-start{
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+#countdown {
+    font-size: 26px;
+    color:brown;
+}
+
+#game-done {
+    font-size: 40px;
+}
 .lead2 {
-    color: red;
+    font-size: 30px;
+    color: goldenrod;
 }
 
 .quest {
     font-size: 26px;
-    font-weight: bold;
+    color:wheat;
+   }
+
+.optradio {
+    font-size: 14px;
+   
 }
+ 
