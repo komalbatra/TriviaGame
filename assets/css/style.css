@@ -1,16 +1,16 @@
-
+/* CSS file for Homework #5 */
 
 
 body {
-    background-image: url("../images/561149.jpg");
+    background-image: url("../images/background.jpg");
     color: white;
     text-align: left;
     font-family: 'Jockey One', sans-serif;
-    
-    }
+}
 
 .cover-heading{
-    margin-top: 60px;
+    margin-top: 40px;
+    font-size: 80px;
 }
 
 #game-start{
@@ -20,24 +20,24 @@ body {
 
 #countdown {
     font-size: 26px;
-    color:brown;
+    color:rgb(201, 12, 12);
 }
 
 #game-done {
     font-size: 40px;
 }
+
 .lead2 {
     font-size: 30px;
     color: goldenrod;
 }
 
 .quest {
-    font-size: 26px;
-    color:wheat;
-   }
+    font-size: 28px;
+    color: wheat;
+}
 
-.optradio {
-    font-size: 14px;
-   
+.text-mysize {
+    font-size: 20px;
 }
  
