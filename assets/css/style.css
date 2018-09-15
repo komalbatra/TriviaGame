@@ -5,7 +5,7 @@ body {
     background-image: url("../images/background.jpg");
     color: white;
     text-align: left;
-    font-family: 'Jockey One', sans-serif;
+    font-family:'Righteous', cursive;
 }
 
 .cover-heading{
@@ -33,7 +33,7 @@ body {
 }
 
 .quest {
-    font-size: 28px;
+    font-size: 26px;
     color: wheat;
 }
 
